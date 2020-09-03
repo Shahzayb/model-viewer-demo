@@ -1014,10 +1014,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@google/model-viewer@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-1.2.0.tgz#5c59234a481074bfc6aeef52155d39749d240fb2"
-  integrity sha512-MMZN6Ht/YCe4hL1f5Cr4gnCwZuVkN8Tqszog+K2X9dZeRfmf1cEq0cmFYkoplquHk5wHWf4L41padWArrGEwCQ==
+"@google/model-viewer@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-1.2.1.tgz#36b4cbeed5ba79680854ea9cafe4cd2f07a89454"
+  integrity sha512-ODlQF0QaEqlLuAIPVvJiURnyVARahf4Kj4fBVxYFtTNg60eOyvuDib+bRyWgETUuScBPG0+hn15hMPwDId1oLg==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
