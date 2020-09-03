@@ -18,6 +18,7 @@ class MyDocument extends Document {
             nomodule
             src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
           ></script> */}
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

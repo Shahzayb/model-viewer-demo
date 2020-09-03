@@ -1,20 +1,17 @@
 import Head from "next/head";
-import dynamic from "next/dynamic";
-
-const DynamicModel = dynamic(() => import("../components/Model"), {
-  ssr: false,
-});
+import ModelsGrid from "../components/ModelsGrid";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Model Viwer Demo</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <DynamicModel />
+        <div style={{ maxWidth: 900, margin: "1rem auto", padding: "1rem" }}>
+          <ModelsGrid />
+        </div>
       </main>
     </div>
   );
