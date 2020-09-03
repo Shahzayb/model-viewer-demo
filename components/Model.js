@@ -1,18 +1,19 @@
 import React from "react";
-import "@google/model-viewer";
+import "@google/model-viewer"
 
 export default function Model() {
   return (
     <div>
       <model-viewer
-        style={{ width: 400, height: 600, margin: "0 auto" }}
-        src="/Lion.gltf"
+        style={{ width: '100vw', height: '100vh', padding: '5rem' }}
+        src="/model.gltf"
+        ios-src="/model.usdz"
         alt="Demo Model"
+        ar
         auto-rotate
         camera-controls
-        ar
-        ios-src="/Lion.usdz"
-        // background-color="#70BCD1"
+        background-color="#70BCD1"
+        quick-look-browsers="safari chrome"
         // shadow-intensity="2"
         // camera-controls=""
         // interaction-prompt="auto"
