@@ -14,12 +14,7 @@ export default function Model() {
         camera-controls
         background-color="#70BCD1"
         quick-look-browsers="safari chrome"
-        // shadow-intensity="2"
-        // camera-controls=""
-        // interaction-prompt="auto"
-        // auto-rotate=""
-        // ar=""
-        // magic-leap=""
+        interaction-prompt="auto"
       ></model-viewer>
     </div>
   );
