@@ -12,9 +12,9 @@ export default function ModelViewer({src, iosSrc, alt}) {
         ar
         auto-rotate
         camera-controls
-        background-color="#70BCD1"
         quick-look-browsers="safari chrome"
         interaction-prompt="auto"
+        exposure="5"
       ></model-viewer>
     </div>
   );
