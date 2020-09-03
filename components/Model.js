@@ -5,7 +5,7 @@ export default function Model() {
   return (
     <div>
       <model-viewer
-        style={{ width: '100vw', height: '100vh', padding: '1rem' }}
+        style={{ width: '90vw', height: '80vh', margin: '0 auto' }}
         src="/model.gltf"
         ios-src="/model.usdz"
         alt="Demo Model"
