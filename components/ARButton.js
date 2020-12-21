@@ -1,6 +1,5 @@
 import React from "react";
 import "@leoncvlt/ar-button";
-import "@leoncvlt/ar-button/styles.css";
 
 function ARButton() {
   return (
