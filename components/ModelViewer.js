@@ -14,7 +14,7 @@ export default function ModelViewer({src, iosSrc, alt}) {
         camera-controls
         quick-look-browsers="safari chrome"
         interaction-prompt="auto"
-        exposure="5"
+        exposure="7"
       ></model-viewer>
     </div>
   );

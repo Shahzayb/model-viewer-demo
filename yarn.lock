@@ -1019,6 +1019,11 @@
   resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-1.2.1.tgz#36b4cbeed5ba79680854ea9cafe4cd2f07a89454"
   integrity sha512-ODlQF0QaEqlLuAIPVvJiURnyVARahf4Kj4fBVxYFtTNg60eOyvuDib+bRyWgETUuScBPG0+hn15hMPwDId1oLg==
 
+"@leoncvlt/ar-button@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@leoncvlt/ar-button/-/ar-button-0.1.2.tgz#fc26066ae1d716ae7bd4b1445e33a56d82314f76"
+  integrity sha512-43y5XAM43DlNLeLeByZfkX7U/L01K6D1NtrXEc0cXHsl0rqhewZsYBegVGCYZNi62x4LFnf/z0VcjNtyhupzfA==
+
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
   resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3.tgz#3275301f08045ecc709e3273031973a1f5e81427"
