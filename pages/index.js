@@ -24,6 +24,8 @@ export default function Home() {
             ios-src="https://model-viewer-demo.vercel.app/models/666.usdz"
             link="https://model-viewer-demo.vercel.app/"
             title="Model 1"
+            show-if-unsupported
+            fallback-url="model-1"
           >
             See in Augmented Reality
           </ar-button>
