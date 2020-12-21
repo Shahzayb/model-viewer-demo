@@ -5,9 +5,9 @@ function ARButton() {
   return (
     <div>
       <ar-button
-        src="/models/666.glb"
-        iosSrc="/models/666.usdz"
-        link="https://www.nasa.gov/"
+        src="https://model-viewer-demo.vercel.app/models/666.glb"
+        ios-src="https://model-viewer-demo.vercel.app/models/666.usdz"
+        link="https://model-viewer-demo.vercel.app/"
         title="Model 1"
       >
         See in Augmented Reality
