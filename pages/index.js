@@ -17,7 +17,9 @@ export default function Home() {
         <div style={{ maxWidth: 900, margin: "1rem auto", padding: "1rem" }}>
           <ModelsGrid />
         </div>
-        <DynamicARButton />
+        <div style={{ padding: "2rem" }}>
+          <DynamicARButton />
+        </div>
       </main>
     </div>
   );
