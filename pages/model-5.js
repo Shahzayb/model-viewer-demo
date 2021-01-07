@@ -9,8 +9,8 @@ export default function Index() {
   return (
     <main>
       <DynamicModelViewer
-        src="/models/846.glb"
-        iosSrc="/models/846.usdz"
+        src="/models/1489.glb"
+        iosSrc="/models/1489.usdz"
         alt="Model 5"
       />
     </main>

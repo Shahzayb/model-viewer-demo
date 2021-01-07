@@ -1,6 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-// import ModelsGrid from "../components/ModelsGrid";
+import ModelsGrid from "../components/ModelsGrid";
 
 const DynamicARButton = dynamic(() => import("../components/ARButton"), {
   ssr: false,
@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <div style={{ maxWidth: 900, margin: "1rem auto", padding: "1rem" }}>
+        <div style={{ maxWidth: 900, margin: "1rem auto", padding: "1rem" }}>
           <ModelsGrid />
-        </div> */}
+        </div>
         <div style={{ padding: "2rem" }}>
           <DynamicARButton />
           <ar-button
